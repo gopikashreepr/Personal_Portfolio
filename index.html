@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopikashree - AI & Data Science Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Gopikashree PR</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-reveal>
+                <div class="hero-text">
+                    <h1>Hello, I'm <span class="highlight">Gopikashree</span></h1>
+                    <h2>AI & Data Science Student</h2>
+                    <p>Passionate about artificial intelligence, machine learning, and data-driven solutions. Currently pursuing my Bachelor's in AI & Data Science and building innovative projects.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View My Work</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/profile1.jpg" alt="Gopikashree Profile" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <h2>About Me</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="about-content" data-reveal>
+                <div class="about-text">
+                    <p>I'm a final year B.Tech student specializing in Artificial Intelligence and Data Science at Panimalar Engineering College. With a strong foundation in machine learning, deep learning, and data analytics, I’m passionate about building intelligent, data-driven solutions that solve real-world problems.</p>
+
+                    <p>My work spans various domains, including emotion recognition, predictive modeling, and business intelligence. I’ve developed systems that leverage deep learning for personalized recommendations and predictive insights, and I'm well-versed in tools like Python, SQL, Power BI, and TensorFlow.</p>
+
+                    <p>Driven by curiosity and continuous learning, I enjoy exploring emerging technologies and thrive in environments that challenge me to innovate and grow. My goal is to contribute meaningfully to the AI field by developing impactful, scalable solutions.</p>
+                    
+                    <div class="skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">Data Analytics</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <h2>Projects</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="projects-grid" data-reveal>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project1.svg" alt="Music Recommendation System" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Deep Learning Based Emotion-Driven Music Recommendation System</h3>
+                        <p>An intelligent system that leverages facial emotion recognition using deep learning (ResNet50V2, CNN) to recommend personalized music based on the user's current emotional state. Designed to enhance user experience by aligning music choices with real-time emotional cues.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Deep Learning</span>
+                        </div>
+                        <a href="https://github.com/gopikashreepr/Emotion_driven_Music_Recommendation_System" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.svg" alt="Diabetes Predictor" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Diabetes Predictor</h3>
+                        <p>A machine learning model designed to predict the likelihood of diabetes onset using key health indicators such as age, BMI, blood pressure, and glucose levels. Implemented advanced classification algorithms to achieve accurate and efficient predictions, helping in early diagnosis and preventive healthcare.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                        <a href="https://github.com/gopikashreepr/diabetes_predictor" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project3.svg" alt="E-commerce Sales Report" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Power BI Dashboard</h3>
+                        <p>Developed a comprehensive business intelligence dashboard to analyze e-commerce sales data, providing stakeholders with real-time insights into revenue trends, customer demographics, and product performance. Integrated interactive visualizations and KPIs to support data-driven decision-making.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">DAX</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Data Analytics</span>
+                            <span class="tech-tag">Visualization</span>
+                        </div>
+                        <a href="https://github.com/gopikashreepr/Power-BI-Dashboard" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section with Zigzag Timeline -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <h2>Work Experience</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="timeline" data-reveal>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <h3>Data Science Intern</h3>
+                            <h4>CodersCave</h4>
+                            <span class="timeline-date">July 2024 - Aug 2024</span>
+                            <ul>
+                                <li>Performed EDA on 750,000+ transactions to support a customer loyalty program.</li>
+                                <li>Analyzed data across customer behavior, climate trends, and employee feedback.</li>
+                                <li>Applied machine learning models to uncover key insights and improve predictions.</li>
+                                <li>Used Python, Pandas, and visualization tools for data analysis and reporting.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <h3>Junior Research Fellow</h3>
+                            <h4>Evolve Robot Lab</h4>
+                            <span class="timeline-date">Jun 2024 - July 2024</span>
+                            <ul>
+                                <li>Analyzed user interactions using AI to identify 15 key improvement areas.</li>
+                                <li>Developed and deployed an ANN-based chatbot, cutting response time by 50%.</li>
+                                <li>Collaborated on Python coding, statistical analysis, and data visualization.</li>
+                                <li>Participated in team discussions and code reviews to enhance project quality.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+
+                <!-- <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <h3>ML Engineering Intern</h3>
+                            <h4>AI Startup Hub</h4>
+                            <span class="timeline-date">Jun 2023 - Aug 2023</span>
+                            <ul>
+                                <li>Implemented neural networks using TensorFlow and PyTorch</li>
+                                <li>Worked on computer vision projects</li>
+                                <li>Participated in agile development processes</li>
+                                <li>Contributed to open-source ML libraries</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <h2>Education</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="education-grid" data-reveal>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Bachelor of Technology</h3>
+                    <h4>Artificial Intelligence and Data Science</h4>
+                    <p class="institution">Panimalar Engineering College</p>
+                    <span class="date">Oct 2022 – Present</span>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>Higher Secondary Certificate (HSC)</h3>
+                    <h4>Science Stream (with PCM & Computer Science) </h4>
+                    <p class="institution">Thiruthangal Nadar Vidhyalaya</p>
+                    <span class="date">Apr 2020 – May 2022</span>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Secondary School Certificate (SSLC)</h3>
+                    <h4>General Education</h4>
+                    <p class="institution">Thiruthangal Nadar Vidhyalaya</p>
+                    <span class="date">Apr 2019 – Apr 2020</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <h2>Certifications & Achievements</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="certifications-grid" data-reveal>
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <i class="fas fa-chart-bar"></i>
+                        <div class="cert-info">
+                            <h3>Data Analytics</h3>
+                            <p class="issuer">Google Cloud • 2025</p>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1aDa9irbJNyIYvLiOnPVq2A3RUov94Cho/view?usp=drive_link" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <i class="fas fa-network-wired"></i>
+                        <div class="cert-info">
+                            <h3>Power BI Workshop</h3>
+                            <p class="issuer">TechTip24 • 2025</p>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1mxgVTj2LkfkNw983TFzc8yiPffpk5q8T/view?usp=drive_link" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <i class="fas fa-certificate"></i>
+                        <div class="cert-info">
+                            <h3>Generative AI</h3>
+                            <p class="issuer">Oracle • 2024</p>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1TVR8BqdIzrsilSxDnddzWU8sWX9L1R-e/view?usp=drive_link" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <i class="fas fa-brain"></i>
+                        <div class="cert-info">
+                            <h3>Acquiring Data</h3>
+                            <p class="issuer">NASSCOM • 2024</p>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1HmZU4N7_ghihNDIKutaz5z4PVInbDWHm/view?usp=drive_link" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <i class="fas fa-code"></i>
+                        <div class="cert-info">
+                            <h3>Excel for Data Science</h3>
+                            <p class="issuer">Scintia Academy • 2024</p>
+                        </div>
+                    </div>
+                    <a href="#" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="cert-info">
+                            <h3>Cyber Security</h3>
+                            <p class="issuer">NASSCOM • 2023</p>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1faUwyQw_cirA5rUBYf9qoQaQhIWnPGvk/view?usp=drive_link" class="cert-link">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-section" class="contact" data-reveal="right"> 
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <h2>Get In Touch</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="contact-content" data-reveal>
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in discussing new opportunities, collaborations, or just having a chat about AI and technology!</p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+91 9952059238</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>gopikassakipog@email.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <p>https://linkedin.com/in/gopikashree-pr</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <p>https://github.com/gopikashreepr</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-award"></i>
+                            <div class="contact-details">
+                                <h4>Credly</h4>
+                                <p>https://www.credly.com/users/gopikashree-pr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" >
+                    <form action="https://formspree.io/f/mwpozvnw" method="POST" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Gopikashree. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/gopikashree-pr" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/gopikashreepr" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:gopikassakipog@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

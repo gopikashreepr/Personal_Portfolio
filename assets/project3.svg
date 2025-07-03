@@ -1,0 +1,90 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="200" fill="linear-gradient(135deg, #f5fff5 0%, #e6ffe6 100%)"/>
+  
+  <!-- Dashboard frame -->
+  <g transform="translate(30, 40)">
+    <rect x="0" y="0" width="340" height="120" fill="white" stroke="#3366ff" stroke-width="2" rx="8"/>
+    
+    <!-- Header bar -->
+    <rect x="0" y="0" width="340" height="25" fill="#3366ff" rx="8"/>
+    <rect x="0" y="12" width="340" height="13" fill="#3366ff"/>
+    <text x="170" y="18" text-anchor="middle" font-family="Arial" font-size="12" fill="white" font-weight="bold">E-commerce Sales Dashboard</text>
+  </g>
+  
+  <!-- Sales chart -->
+  <g transform="translate(50, 70)">
+    <!-- Chart background -->
+    <rect x="0" y="0" width="100" height="60" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" rx="4"/>
+    
+    <!-- Bars -->
+    <rect x="10" y="40" width="8" height="15" fill="#3366ff" opacity="0.8"/>
+    <rect x="25" y="30" width="8" height="25" fill="#3366ff" opacity="0.8"/>
+    <rect x="40" y="20" width="8" height="35" fill="#3366ff" opacity="0.8"/>
+    <rect x="55" y="35" width="8" height="20" fill="#3366ff" opacity="0.8"/>
+    <rect x="70" y="15" width="8" height="40" fill="#3366ff" opacity="0.8"/>
+    <rect x="85" y="25" width="8" height="30" fill="#3366ff" opacity="0.8"/>
+    
+    <!-- Chart title -->
+    <text x="50" y="75" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">Monthly Sales</text>
+  </g>
+  
+  <!-- KPI Cards -->
+  <g transform="translate(170, 70)">
+    <!-- Revenue card -->
+    <rect x="0" y="0" width="60" height="25" fill="#3366ff" opacity="0.1" stroke="#3366ff" stroke-width="1" rx="4"/>
+    <text x="30" y="12" text-anchor="middle" font-family="Arial" font-size="8" fill="#3366ff" font-weight="bold">Revenue</text>
+    <text x="30" y="22" text-anchor="middle" font-family="Arial" font-size="10" fill="#3366ff">$125K</text>
+    
+    <!-- Orders card -->
+    <rect x="70" y="0" width="60" height="25" fill="#10b981" opacity="0.1" stroke="#10b981" stroke-width="1" rx="4"/>
+    <text x="100" y="12" text-anchor="middle" font-family="Arial" font-size="8" fill="#10b981" font-weight="bold">Orders</text>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial" font-size="10" fill="#10b981">2,450</text>
+    
+    <!-- Customers card -->
+    <rect x="0" y="35" width="60" height="25" fill="#f59e0b" opacity="0.1" stroke="#f59e0b" stroke-width="1" rx="4"/>
+    <text x="30" y="47" text-anchor="middle" font-family="Arial" font-size="8" fill="#f59e0b" font-weight="bold">Customers</text>
+    <text x="30" y="57" text-anchor="middle" font-family="Arial" font-size="10" fill="#f59e0b">1,230</text>
+    
+    <!-- Conversion card -->
+    <rect x="70" y="35" width="60" height="25" fill="#ef4444" opacity="0.1" stroke="#ef4444" stroke-width="1" rx="4"/>
+    <text x="100" y="47" text-anchor="middle" font-family="Arial" font-size="8" fill="#ef4444" font-weight="bold">Conversion</text>
+    <text x="100" y="57" text-anchor="middle" font-family="Arial" font-size="10" fill="#ef4444">3.2%</text>
+  </g>
+  
+  <!-- Pie chart -->
+  <g transform="translate(300, 90)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+    
+    <!-- Pie segments -->
+    <path d="M 0,-25 A 25,25 0 0,1 17.7,17.7 L 0,0 Z" fill="#3366ff" opacity="0.8"/>
+    <path d="M 17.7,17.7 A 25,25 0 0,1 -12.5,21.7 L 0,0 Z" fill="#10b981" opacity="0.8"/>
+    <path d="M -12.5,21.7 A 25,25 0 0,1 0,-25 L 0,0 Z" fill="#f59e0b" opacity="0.8"/>
+    
+    <text x="0" y="45" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">Product Mix</text>
+  </g>
+  
+  <!-- Data table representation -->
+  <g transform="translate(50, 170)">
+    <!-- Table header -->
+    <rect x="0" y="0" width="300" height="15" fill="#3366ff" opacity="0.1"/>
+    <text x="10" y="10" font-family="Arial" font-size="8" fill="#3366ff">Product</text>
+    <text x="100" y="10" font-family="Arial" font-size="8" fill="#3366ff">Sales</text>
+    <text x="150" y="10" font-family="Arial" font-size="8" fill="#3366ff">Revenue</text>
+    <text x="220" y="10" font-family="Arial" font-size="8" fill="#3366ff">Growth</text>
+    
+    <!-- Sample row -->
+    <line x1="0" y1="15" x2="300" y2="15" stroke="#e2e8f0" stroke-width="1"/>
+  </g>
+  
+  <!-- Power BI logo representation -->
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="12" height="8" fill="#f2c811"/>
+    <rect x="0" y="8" width="8" height="4" fill="#f2c811"/>
+    <rect x="0" y="12" width="4" height="4" fill="#f2c811"/>
+    <text x="20" y="12" font-family="Arial" font-size="10" fill="#f2c811" font-weight="bold">Power BI</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#3366ff">E-commerce Analytics Dashboard</text>
+</svg>
