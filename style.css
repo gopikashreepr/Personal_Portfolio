@@ -372,13 +372,14 @@ p {
 
 /* Projects Section */
 .projects {
-    padding: var(--space-24) 0;
+    padding: var(--space-32) 0;
     background-color: hsl(var(--light-gray));
 }
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: var(--space-12); /* larger gap between rows */
     gap: var(--space-8);
 }
 
@@ -995,4 +996,10 @@ p {
 .scroll-animate.animate {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media (min-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
